@@ -1,0 +1,230 @@
+* {
+    font-family: Urbanist;
+    margin: 0;
+    padding: 0;
+}
+main, header, footer {
+    width: 100%;
+}
+
+h2 {
+    margin-left: 40px;
+    margin-bottom: 24px;
+}
+ul {
+    margin-left: 70px;
+    margin-bottom: 40px;
+    line-height: 24px;
+    font-weight: bolder;
+}
+
+
+.logo {
+    position: relative;
+    background-color: white;
+    height: 123px;
+}
+#logo-text {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    text-decoration: none;
+    color: #3E3F43;
+    background-image: url("../images/wolf.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+.logo-text2 {
+    position: relative;
+    top: 9px;
+    font-weight: bolder;
+}
+
+
+
+
+.pink {
+    position: relative;
+    background-color: #F9BDBD;
+    height: 555px;
+    margin-bottom: 24px;
+}
+.prog-img {
+    position: absolute;
+    top: 165px;
+    left: 78px;
+    width: 600px;
+}
+.h1-text {
+    position: absolute;
+    top: 83px;
+    left: 770px;
+    font-size: 40px;
+}
+.sp-text {
+    font-weight: lighter;
+}
+.sp-text2 {
+    font-size: smaller;
+}
+
+.rectangle {
+    position: absolute;
+    background-color: #F7DEA6;
+    width: 278px;
+    height: 388px;
+    top: 83px;
+    left: 40px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;    
+}
+
+.about-text {
+  width: 741px;
+  margin-left: 40px;
+  margin-bottom: 83px;
+  line-height: 29px;
+  font-weight: bold;
+}
+.cards {
+    margin-bottom: 40px;
+}
+.ex1-card {
+    margin-left: 40px;
+    margin-right: 24px;
+    position: relative;
+    width: 200px;
+    height: 264px;
+    background-color: #FDEDE5;
+    display: inline-block;
+    border-radius: 18px;
+    box-shadow: 19px 4px 50px rgba(0,0,0,0.25);
+}
+.ex2-card {
+    margin-left: 40px;
+    margin-right: 24px;
+    position: relative;
+    width: 200px;
+    height: 264px;
+    background-color: #EBF1FF;
+    display: inline-block;
+    border-radius: 18px;
+    box-shadow: 19px 4px 50px rgba(0,0,0,0.25);
+}
+.ex3-card {
+    margin-left: 40px;
+    margin-right: 24px;
+    position: relative;
+    width: 200px;
+    height: 264px;
+    background-color: #EBFFEC;
+    display: inline-block;
+    border-radius: 18px;
+    box-shadow: 19px 4px 50px rgba(0,0,0,0.25);
+}
+.ex4-card {
+    margin-left: 40px;
+    margin-right: 24px;
+    position: relative;
+    width: 200px;
+    height: 264px;
+    background-color: #FFEBFC;
+    display: inline-block;
+    border-radius: 18px;
+    box-shadow: 19px 4px 50px rgba(0,0,0,0.25);
+}
+.ex5-card {
+    margin-left: 40px;
+    margin-right: 24px;
+    position: relative;
+    width: 200px;
+    height: 264px;
+    background-color: #FFFEEB;
+    display: inline-block;
+    border-radius: 18px;
+    box-shadow: 19px 4px 50px rgba(0,0,0,0.25);
+}
+.ex1-text {
+    position: absolute;
+    top: 128px;
+    left: 24px;
+    font-weight: bolder;
+    font-size: 17px;
+
+}
+.ex1-img {
+    position: absolute;
+    width: 60px;
+    top: 24px;
+    left: 24px;
+    
+}
+.card-button {
+    position: absolute;
+    top: 184px;
+    left: 24px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.7s, opacity 0.4s;
+    font-weight: bolder;
+}
+.card-button:hover {
+    background-color: black;
+    color: white;
+}
+.card-button:active {
+    opacity: 0.6;
+
+}
+
+
+
+
+
+
+
+.footer-area {
+    margin-top: 100px;
+    position: relative;
+    background-color: rgb(237, 237, 237);
+    height: 301px ;
+}
+.follow {
+    position: absolute;
+    top: 32px;
+    left: 40px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.links {
+    position: absolute;
+    top: 73px;
+    left: 40px;
+}
+.link {
+    margin-bottom: 16px;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #8D8D8D;
+}
+.rights {
+    position: absolute;
+    top: 232px;
+    left: 40px;
+    font-size: 12px;
+    color: #8D8D8D;
+}
+
+
+
+.giphy-embed {
+    align-self: center;
+}
